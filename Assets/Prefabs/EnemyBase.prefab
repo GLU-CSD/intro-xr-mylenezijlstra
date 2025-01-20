@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7069507098552498742}
   - component: {fileID: 7209097778779852193}
+  - component: {fileID: 1941664910047169797}
   m_Layer: 0
   m_Name: EnemyBase
   m_TagString: Untagged
@@ -48,6 +49,27 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthbarFill: {fileID: 0}
+--- !u!95 &1941664910047169797
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972868617532899598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9dab5af7ed8d1f049ad1279bf9498f60, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7973927419265697559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62,31 +84,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.048110746
+      value: -0.85979974
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.18378924
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.013667271
+      value: 0.30730495
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.15576473
+      value: -0.15337852
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000000034043428
+      value: 0.17223626
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9877942
+      value: 0.9726624
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000021588928
+      value: -0.027159857
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -98,7 +120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 20.083
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: f3e3a05cf47384587be645cd972fcc2a, type: 3}
       propertyPath: m_Materials.Array.data[0]
